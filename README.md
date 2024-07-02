@@ -1,4 +1,4 @@
-# Buile using Vanilla JS and Tailwind CSS Boilerplate with Vite
+# Built using Vanilla JS and Tailwind CSS Boilerplate with Vite
 
 This is based on a simple boilerplate project for getting started with a web development project using Vanilla JavaScript and Tailwind CSS, powered by Vite.
 
