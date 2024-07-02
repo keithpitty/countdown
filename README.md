@@ -1,6 +1,6 @@
-# Vanilla JS and Tailwind CSS Boilerplate with Vite
+# Buile using Vanilla JS and Tailwind CSS Boilerplate with Vite
 
-This is a simple boilerplate project for getting started with a web development project using Vanilla JavaScript and Tailwind CSS, powered by Vite.
+This is based on a simple boilerplate project for getting started with a web development project using Vanilla JavaScript and Tailwind CSS, powered by Vite.
 
 ## Features
 
@@ -8,7 +8,7 @@ This is a simple boilerplate project for getting started with a web development 
 - Tailwind CSS: Utilize the power of Tailwind CSS to create highly customizable and responsive UI components.
 - Vite: Enjoy a fast development experience with Vite's blazing-fast build tooling.
 
-## Getting Started
+## Getting Started with the Boilerplate
 
 1. Clone the repository:
 
