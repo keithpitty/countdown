@@ -3,21 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla Tailwind CSS Boilerplate</title>
+    <title>The Countdown continues</title>
     <script type="module" src="main.js" defer></script>
+    <script>
+      window.onload = function(){
+        const today = new Date();
+        const endDate = new Date(2025, 11, 31);
+        var daysRemaining = Math.floor((endDate - today)/(1000 * 60 * 60 * 24));
+        document.getElementById('day-count').innerHTML = 'Only ' + daysRemaining + ' days left!';
+      }
+    </script>
   </head>
   <body class="px-4 h-screen flex items-center justify-center">
     <div class="bg-white p-8 rounded shadow-md">
-      <h1 class="text-2xl font-semibold mb-4">Welcome to Tailwind CSS!</h1>
-      <p class="text-gray-700">
-        Tailwind CSS is a utility-first CSS framework that helps you quickly
-        build modern and responsive user interfaces.
-      </p>
-      <button
-        class="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
-      >
-        Get Started
-      </button>
+      <h1 class="text-4xl font-semibold mb-4">The Countdown continues...</h1>
+      <h2 id="day-count" class="text-2xl font-semibold mb-2 text-gray-800">
+      </h2>
     </div>
   </body>
 </html>
