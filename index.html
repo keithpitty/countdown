@@ -8,8 +8,9 @@
     <script>
       window.onload = function(){
         const today = new Date();
-        const endDate = new Date(2025, 11, 31);
-        var daysRemaining = Math.ceil((endDate - today)/(1000 * 60 * 60 * 24));
+        var endDate = new Date(2025, 11, 31);
+        endDate.setHours(23, 59, 59, 0);
+        var daysRemaining = Math.floor((endDate - today)/(1000 * 60 * 60 * 24));
         document.getElementById('day-count').innerHTML = 'Only ' + daysRemaining + ' days left!';
       }
     </script>
